@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: es
+
+elasticsearch:
+  hosts: http://opensearch:9200
+  #  user:
+  #  password:
+  socket-timeout: 180000 # Todo
+  connection-timeout: 10000 # Todo
